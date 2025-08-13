@@ -58,7 +58,7 @@ argument = url=http://1.2.3.4:3770/status&name=Server&icon=bolt.horizontal.iclou
 function httpAPI(path = '') {
   let headers = {
     'User-Agent':
-      'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/93.0.4577.63 Mobile/15E148 Safari/604.1 EdgiOS/46.7.4.1',
+      'Mozilla/5.0 (iPhone; CPU iPhone OS 15_0 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) CriOS/94.0.4577.63 Mobile/15E148 Safari/604.1 EdgiOS/46.7.4.1',
   }
   return new Promise((resolve, reject) => {
     $httpClient.get(
